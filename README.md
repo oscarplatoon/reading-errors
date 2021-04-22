@@ -11,9 +11,9 @@ Learning to recognize these errors are maybe one of the most crucial skills for 
 1. Run the script: `python errors.py`
 2. Review the error message in your terminal
 3. Attempt to fix the specified error on the specified line
-4. Repeat Step 1 through 3 until the script runs without error
+4. Repeat all these steps until the script runs without error
 
-> This "traceback" is also called a stack trace. In many cases the **most relevant lines** of the stack trace will be the last few lines. It will show the **ErrorType**, **File Name**, and **Line Number** of the where that raised the error occured. In this case the errors should always be occuring in `errors.py` but in more complex applications you could have many `.py` files involved.
+> A "traceback" is also called a stack trace. In many cases the **most relevant lines** of the stack trace will be the last few lines. It will show the **ErrorType**, **File Name**, and **Line Number** of the where that raised the error occured. In this case the errors should always be occuring in `errors.py` but in more complex applications you could have many `.py` files involved.
 
 ### Something to keep in mind
-One of the errors below occurs because of the order of execution. When you run this script Python will read AND execute the file from top to bottom in order. This is important when trying to reference something that has yet to set to exist. 
+One of the errors in `errors.py` occurs because of the order of execution. When you run this script Python will read AND execute the file from top to bottom in order. This is important when trying to reference something that has yet to set to exist. 
