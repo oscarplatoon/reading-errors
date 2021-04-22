@@ -147,7 +147,7 @@ for i in my_int:
 Expectation: This code should print out: Code Platoon!
 
 Documentation:
-https://docs.python.org/3/library/exceptions.html#TypeError
+https://docs.python.org/3/library/exceptions.html#IndentationError
 """
 # ---- Fix the Indentation Error below ----
  print("Code Platoon!")
