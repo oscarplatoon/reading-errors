@@ -16,4 +16,4 @@ Learning to recognize these errors are maybe one of the most crucial skills for 
 > A "traceback" is also called a stack trace. In many cases the **most relevant lines** of the stack trace will be the last few lines. It will show the **ErrorType**, **File Name**, and **Line Number** of the where that raised the error occured. In this case the errors should always be occuring in `errors.py` but in more complex applications you could have many `.py` files involved.
 
 ### Something to keep in mind
-One of the errors in `errors.py` occurs because of the order of execution. When you run this script Python will read AND execute the file from top to bottom in order. This is important when trying to reference something that has yet to set to exist. 
+One of the errors in `errors.py` occurs because of the order of execution. When you run this script Python will read AND execute the file from top to bottom in order. This is important when trying to reference something that has not yet been **defined** or set to exist.
