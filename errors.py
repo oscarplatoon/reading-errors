@@ -23,8 +23,7 @@ that has yet to set to exist.
 
 
 """
-Expectation: Calling my_func should have printed out the message that
-was passed in as the argument. In this case: 
+Expectation: This code should have printed out: how are you
 
 
 Documentation:
@@ -35,8 +34,7 @@ print('how are you)
 
 
 """
-Expectation: Calling my_func should have printed out the message that
-was passed in as the argument. In this case: 
+Expectation: This code should have printed out: hello there
 
 Documentation:
 https://docs.python.org/3/library/exceptions.html#NameError
